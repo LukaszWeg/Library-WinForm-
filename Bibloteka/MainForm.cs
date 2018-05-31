@@ -57,5 +57,12 @@ namespace Bibloteka
         {
             LayoutMdi(MdiLayout.Cascade);
         }
+
+        private void listaPracownikówToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            WorkerListForm worker = new WorkerListForm();
+            worker.MdiParent = this;
+            worker.Show();
+        }
     }
 }

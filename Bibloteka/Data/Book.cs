@@ -8,11 +8,18 @@ namespace Bibloteka.Data
 {
     public class Book
     {
+        int bookId;
         string name= "";
         string author = "";
         long isbn = 0;
         string type = "";
         int date = 0;
+
+        public int BookId
+        {
+            get { return bookId; }
+            set { bookId = value; }
+        }
 
         public string Name
         {

@@ -51,6 +51,7 @@
     <Compile Include="BookForm.Designer.cs">
       <DependentUpon>BookForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="DataAccess\DataContext.cs" />
     <Compile Include="Data\Book.cs" />
     <Compile Include="Data\Reader.cs" />
     <Compile Include="Data\Worker.cs" />
@@ -74,6 +75,12 @@
     <Compile Include="WorkerForm.Designer.cs">
       <DependentUpon>WorkerForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="WorkerListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkerListForm.Designer.cs">
+      <DependentUpon>WorkerListForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="BookForm.resx">
       <DependentUpon>BookForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -94,6 +101,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="WorkerForm.resx">
       <DependentUpon>WorkerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkerListForm.resx">
+      <DependentUpon>WorkerListForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\DataSources\Bibloteka.Data.Book.datasource" />
     <None Include="Properties\DataSources\Bibloteka.Data.Reader.datasource" />

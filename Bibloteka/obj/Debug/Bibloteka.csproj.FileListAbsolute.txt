@@ -11,3 +11,4 @@ C:\Users\User\source\repos\Bibloteka\Bibloteka\obj\Debug\Bibloteka.pdb
 C:\Users\User\source\repos\Bibloteka\Bibloteka\obj\Debug\Bibloteka.ReaderForm.resources
 C:\Users\User\source\repos\Bibloteka\Bibloteka\obj\Debug\Bibloteka.WorkerForm.resources
 C:\Users\User\source\repos\Bibloteka\Bibloteka\obj\Debug\Bibloteka.MainForm.resources
+C:\Users\User\source\repos\Bibloteka\Bibloteka\obj\Debug\Bibloteka.WorkerListForm.resources

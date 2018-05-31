@@ -8,10 +8,17 @@ namespace Bibloteka.Data
 {
     public class Worker
     {
+        int workerId;
         string firstname = "";
         string lastname = "";
         long telNumber = 0;
         DateTime hired = DateTime.Now;
+
+        public int WorkerId
+        {
+            get { return workerId; }
+            set { workerId = value; }
+        }
 
         public string Firstname
         {
