@@ -172,6 +172,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.dateTimePicker1);
@@ -185,6 +186,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.MaximumSize = new System.Drawing.Size(300, 300);
             this.Name = "BookForm";
             this.Text = "Dodaj Książkę";
             this.Load += new System.EventHandler(this.BookForm_Load);
