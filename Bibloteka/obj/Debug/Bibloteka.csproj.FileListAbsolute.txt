@@ -8,3 +8,4 @@ C:\Users\User\source\repos\Bibloteka\Bibloteka\obj\Debug\Bibloteka.csproj.Genera
 C:\Users\User\source\repos\Bibloteka\Bibloteka\obj\Debug\Bibloteka.csproj.CoreCompileInputs.cache
 C:\Users\User\source\repos\Bibloteka\Bibloteka\obj\Debug\Bibloteka.exe
 C:\Users\User\source\repos\Bibloteka\Bibloteka\obj\Debug\Bibloteka.pdb
+C:\Users\User\source\repos\Bibloteka\Bibloteka\obj\Debug\Bibloteka.ReaderForm.resources
