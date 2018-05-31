@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Bibloteka.Data;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,12 @@ namespace Bibloteka
 {
     public partial class BookForm : Form
     {
+        private Book book = new Book();
+
         public BookForm()
         {
             InitializeComponent();
+            this.bookBindingSource.DataSource = book;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -35,6 +39,16 @@ namespace Bibloteka
         private void label3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+           
         }
     }
 }

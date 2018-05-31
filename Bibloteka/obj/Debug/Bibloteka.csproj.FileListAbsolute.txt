@@ -1,0 +1,10 @@
+C:\Users\User\source\repos\Bibloteka\Bibloteka\bin\Debug\Bibloteka.exe.config
+C:\Users\User\source\repos\Bibloteka\Bibloteka\bin\Debug\Bibloteka.exe
+C:\Users\User\source\repos\Bibloteka\Bibloteka\bin\Debug\Bibloteka.pdb
+C:\Users\User\source\repos\Bibloteka\Bibloteka\obj\Debug\Bibloteka.csprojResolveAssemblyReference.cache
+C:\Users\User\source\repos\Bibloteka\Bibloteka\obj\Debug\Bibloteka.BookForm.resources
+C:\Users\User\source\repos\Bibloteka\Bibloteka\obj\Debug\Bibloteka.Properties.Resources.resources
+C:\Users\User\source\repos\Bibloteka\Bibloteka\obj\Debug\Bibloteka.csproj.GenerateResource.Cache
+C:\Users\User\source\repos\Bibloteka\Bibloteka\obj\Debug\Bibloteka.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Bibloteka\Bibloteka\obj\Debug\Bibloteka.exe
+C:\Users\User\source\repos\Bibloteka\Bibloteka\obj\Debug\Bibloteka.pdb
