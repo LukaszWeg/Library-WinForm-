@@ -34,6 +34,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.bookBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -41,7 +42,6 @@
             this.button2 = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label5 = new System.Windows.Forms.Label();
-            this.bookBindingSource = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.bookBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
@@ -91,6 +91,10 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(188, 20);
             this.textBox1.TabIndex = 4;
+            // 
+            // bookBindingSource
+            // 
+            this.bookBindingSource.DataSource = typeof(Bibloteka.Data.Book);
             // 
             // textBox2
             // 
@@ -164,10 +168,6 @@
             this.label5.TabIndex = 11;
             this.label5.Text = "Data wydania";
             // 
-            // bookBindingSource
-            // 
-            this.bookBindingSource.DataSource = typeof(Bibloteka.Data.Book);
-            // 
             // BookForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -188,7 +188,7 @@
             this.Controls.Add(this.label1);
             this.MaximumSize = new System.Drawing.Size(300, 300);
             this.Name = "BookForm";
-            this.Text = "Dodaj Książkę";
+            this.Text = "Dodaj książkę";
             this.Load += new System.EventHandler(this.BookForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.bookBindingSource)).EndInit();
             this.ResumeLayout(false);

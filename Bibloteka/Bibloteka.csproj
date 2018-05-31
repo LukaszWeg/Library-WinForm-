@@ -51,6 +51,12 @@
     <Compile Include="BookForm.Designer.cs">
       <DependentUpon>BookForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="BookListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookListForm.Designer.cs">
+      <DependentUpon>BookListForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="DataAccess\DataContext.cs" />
     <Compile Include="Data\Book.cs" />
     <Compile Include="Data\Reader.cs" />
@@ -69,6 +75,12 @@
     <Compile Include="ReaderForm.Designer.cs">
       <DependentUpon>ReaderForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="ReaderListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReaderListForm.Designer.cs">
+      <DependentUpon>ReaderListForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="WorkerForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +96,9 @@
     <EmbeddedResource Include="BookForm.resx">
       <DependentUpon>BookForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="BookListForm.resx">
+      <DependentUpon>BookListForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -98,6 +113,9 @@
     </Compile>
     <EmbeddedResource Include="ReaderForm.resx">
       <DependentUpon>ReaderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReaderListForm.resx">
+      <DependentUpon>ReaderListForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WorkerForm.resx">
       <DependentUpon>WorkerForm.cs</DependentUpon>

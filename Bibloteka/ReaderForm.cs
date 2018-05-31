@@ -20,6 +20,13 @@ namespace Bibloteka
             this.readerBindingSource.DataSource = reader;
         }
 
+        public ReaderForm(Reader reader)
+        {
+            InitializeComponent();
+            this.reader = reader;
+            this.readerBindingSource.DataSource = this.reader;
+        }
+
         private void label4_Click(object sender, EventArgs e)
         {
 
@@ -39,6 +46,17 @@ namespace Bibloteka
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (DataAccess.DataContext.AddorEditReader(reader) == true)
+                { this.Close(); }
+            }
+            catch (Exception x)
+            { MessageBox.Show("Podczas zapisu wystąpił błąd: " + x.Message); }
         }
     }
 }

@@ -21,6 +21,13 @@ namespace Bibloteka
             this.bookBindingSource.DataSource = book;
         }
 
+        public BookForm(Book book)
+        {
+            InitializeComponent();
+            this.book = book;
+            this.bookBindingSource.DataSource = this.book;
+        }
+
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -48,7 +55,13 @@ namespace Bibloteka
 
         private void button1_Click(object sender, EventArgs e)
         {
-           
+            try
+            {
+                if (DataAccess.DataContext.AddorEditBook(book) == true)
+                { this.Close(); }
+            }
+            catch (Exception x)
+            { MessageBox.Show("Podczas zapisu wystąpił błąd: " + x.Message); }
         }
     }
 }

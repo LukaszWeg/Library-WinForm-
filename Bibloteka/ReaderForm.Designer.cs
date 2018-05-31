@@ -30,6 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.readerBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
@@ -39,7 +40,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.readerBindingSource = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.readerBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
@@ -51,6 +51,10 @@
             this.textBox1.Size = new System.Drawing.Size(152, 20);
             this.textBox1.TabIndex = 0;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // readerBindingSource
+            // 
+            this.readerBindingSource.DataSource = typeof(Bibloteka.Data.Reader);
             // 
             // textBox2
             // 
@@ -122,6 +126,7 @@
             this.button1.TabIndex = 9;
             this.button1.Text = "Zapisz";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -132,10 +137,6 @@
             this.button2.Text = "Anuluj";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // readerBindingSource
-            // 
-            this.readerBindingSource.DataSource = typeof(Bibloteka.Data.Reader);
             // 
             // ReaderForm
             // 
@@ -155,7 +156,7 @@
             this.Controls.Add(this.textBox1);
             this.MaximumSize = new System.Drawing.Size(300, 300);
             this.Name = "ReaderForm";
-            this.Text = "Dodaj Czytelnika";
+            this.Text = "Dodaj czytelnika";
             ((System.ComponentModel.ISupportInitialize)(this.readerBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

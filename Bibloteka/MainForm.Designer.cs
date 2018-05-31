@@ -118,12 +118,14 @@
             this.listaKlientówToolStripMenuItem.Name = "listaKlientówToolStripMenuItem";
             this.listaKlientówToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.listaKlientówToolStripMenuItem.Text = "Lista książek";
+            this.listaKlientówToolStripMenuItem.Click += new System.EventHandler(this.listaKlientówToolStripMenuItem_Click);
             // 
             // listaCzytelnikówToolStripMenuItem
             // 
             this.listaCzytelnikówToolStripMenuItem.Name = "listaCzytelnikówToolStripMenuItem";
             this.listaCzytelnikówToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.listaCzytelnikówToolStripMenuItem.Text = "Lista czytelników";
+            this.listaCzytelnikówToolStripMenuItem.Click += new System.EventHandler(this.listaCzytelnikówToolStripMenuItem_Click);
             // 
             // listaPracownikówToolStripMenuItem
             // 

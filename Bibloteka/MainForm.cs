@@ -64,5 +64,19 @@ namespace Bibloteka
             worker.MdiParent = this;
             worker.Show();
         }
+
+        private void listaKlientówToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            BookListForm book = new BookListForm();
+            book.MdiParent = this;
+            book.Show();
+        }
+
+        private void listaCzytelnikówToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ReaderListForm reader = new ReaderListForm();
+            reader.MdiParent = this;
+            reader.Show();
+        }
     }
 }
