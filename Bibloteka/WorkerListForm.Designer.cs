@@ -30,15 +30,15 @@
         {
             this.components = new System.ComponentModel.Container();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             this.firstnameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lastnameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.telNumberDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.hiredDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.workerBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.workerBindingSource)).BeginInit();
             this.SuspendLayout();
@@ -61,6 +61,42 @@
             this.dataGridView1.Size = new System.Drawing.Size(460, 202);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // firstnameDataGridViewTextBoxColumn
+            // 
+            this.firstnameDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.firstnameDataGridViewTextBoxColumn.DataPropertyName = "Firstname";
+            this.firstnameDataGridViewTextBoxColumn.HeaderText = "Imię";
+            this.firstnameDataGridViewTextBoxColumn.Name = "firstnameDataGridViewTextBoxColumn";
+            this.firstnameDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // lastnameDataGridViewTextBoxColumn
+            // 
+            this.lastnameDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.lastnameDataGridViewTextBoxColumn.DataPropertyName = "Lastname";
+            this.lastnameDataGridViewTextBoxColumn.HeaderText = "Nazwisko";
+            this.lastnameDataGridViewTextBoxColumn.Name = "lastnameDataGridViewTextBoxColumn";
+            this.lastnameDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // telNumberDataGridViewTextBoxColumn
+            // 
+            this.telNumberDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.telNumberDataGridViewTextBoxColumn.DataPropertyName = "TelNumber";
+            this.telNumberDataGridViewTextBoxColumn.HeaderText = "Numer telefonu";
+            this.telNumberDataGridViewTextBoxColumn.Name = "telNumberDataGridViewTextBoxColumn";
+            this.telNumberDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // hiredDataGridViewTextBoxColumn
+            // 
+            this.hiredDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.hiredDataGridViewTextBoxColumn.DataPropertyName = "Hired";
+            this.hiredDataGridViewTextBoxColumn.HeaderText = "Data zatrudnienia";
+            this.hiredDataGridViewTextBoxColumn.Name = "hiredDataGridViewTextBoxColumn";
+            this.hiredDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // workerBindingSource
+            // 
+            this.workerBindingSource.DataSource = typeof(Bibloteka.Data.Worker);
             // 
             // button1
             // 
@@ -102,46 +138,11 @@
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // firstnameDataGridViewTextBoxColumn
-            // 
-            this.firstnameDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.firstnameDataGridViewTextBoxColumn.DataPropertyName = "Firstname";
-            this.firstnameDataGridViewTextBoxColumn.HeaderText = "Imię";
-            this.firstnameDataGridViewTextBoxColumn.Name = "firstnameDataGridViewTextBoxColumn";
-            this.firstnameDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // lastnameDataGridViewTextBoxColumn
-            // 
-            this.lastnameDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.lastnameDataGridViewTextBoxColumn.DataPropertyName = "Lastname";
-            this.lastnameDataGridViewTextBoxColumn.HeaderText = "Nazwisko";
-            this.lastnameDataGridViewTextBoxColumn.Name = "lastnameDataGridViewTextBoxColumn";
-            this.lastnameDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // telNumberDataGridViewTextBoxColumn
-            // 
-            this.telNumberDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.telNumberDataGridViewTextBoxColumn.DataPropertyName = "TelNumber";
-            this.telNumberDataGridViewTextBoxColumn.HeaderText = "Numer telefonu";
-            this.telNumberDataGridViewTextBoxColumn.Name = "telNumberDataGridViewTextBoxColumn";
-            this.telNumberDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // hiredDataGridViewTextBoxColumn
-            // 
-            this.hiredDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.hiredDataGridViewTextBoxColumn.DataPropertyName = "Hired";
-            this.hiredDataGridViewTextBoxColumn.HeaderText = "Data zatrudnienia";
-            this.hiredDataGridViewTextBoxColumn.Name = "hiredDataGridViewTextBoxColumn";
-            this.hiredDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // workerBindingSource
-            // 
-            this.workerBindingSource.DataSource = typeof(Bibloteka.Data.Worker);
-            // 
             // WorkerListForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(484, 261);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);

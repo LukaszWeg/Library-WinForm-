@@ -14,3 +14,7 @@ C:\Users\User\source\repos\Bibloteka\Bibloteka\obj\Debug\Bibloteka.MainForm.reso
 C:\Users\User\source\repos\Bibloteka\Bibloteka\obj\Debug\Bibloteka.WorkerListForm.resources
 C:\Users\User\source\repos\Bibloteka\Bibloteka\obj\Debug\Bibloteka.BookListForm.resources
 C:\Users\User\source\repos\Bibloteka\Bibloteka\obj\Debug\Bibloteka.ReaderListForm.resources
+C:\Users\User\source\repos\Bibloteka\Bibloteka\bin\Debug\EntityFramework.dll
+C:\Users\User\source\repos\Bibloteka\Bibloteka\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\source\repos\Bibloteka\Bibloteka\bin\Debug\EntityFramework.xml
+C:\Users\User\source\repos\Bibloteka\Bibloteka\bin\Debug\EntityFramework.SqlServer.xml

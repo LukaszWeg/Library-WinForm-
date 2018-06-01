@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Bibloteka.Data
 {
+    [Table("Czytelnicy")]
     public class Reader
     {
         int readerId;
@@ -14,6 +17,7 @@ namespace Bibloteka.Data
         long telNumber=0;
         string email="";
 
+        [Key]
         public int ReaderId
         {
             get { return readerId; }

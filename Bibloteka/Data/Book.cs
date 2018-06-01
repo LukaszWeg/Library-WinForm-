@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Bibloteka.Data
 {
+    [Table("Ksiazka")]
     public class Book
     {
         int bookId;
@@ -15,6 +18,7 @@ namespace Bibloteka.Data
         string type = "";
         int date = 0;
 
+        [Key]
         public int BookId
         {
             get { return bookId; }
