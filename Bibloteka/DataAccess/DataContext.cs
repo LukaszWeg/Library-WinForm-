@@ -28,6 +28,11 @@ namespace Bibloteka.DataAccess
             return context.getWorkers.ToList();
         }
 
+        public static List<Hire> getHires()
+        {
+            return context.getHires.ToList();
+        }
+
         public static bool AddorEditWorker(Worker worker)
         {
             if (worker.WorkerId == 0)
@@ -89,6 +94,29 @@ namespace Bibloteka.DataAccess
                     reader2.TelNumber = reader.TelNumber;
                     reader2.Firstname = reader.Firstname;
                     reader2.Email = reader.Email;
+                }
+            }
+            context.SaveChanges();
+            return true;
+        }
+
+        public static bool AddorEditHire(Hire hire)
+        {
+            if (hire.HireId == 0)
+            {
+                hire.HireId = context.getHires.Count() > 0 ? context.getHires.Max(x => x.HireId) + 1 : 1;
+                context.getHires.Add(hire);
+             }
+            else
+            {
+                Hire hire2 = context.getHires.FirstOrDefault(x => x.HireId == hire.HireId);
+                if (hire2 != null)
+                {
+                    hire2.book = hire.book;
+                    hire2.HireDate = hire.HireDate;
+                    hire2.ReadDate = hire.ReadDate;
+                    hire2.reader = hire.reader;
+                    hire2.worker = hire.worker;
                 }
             }
             context.SaveChanges();

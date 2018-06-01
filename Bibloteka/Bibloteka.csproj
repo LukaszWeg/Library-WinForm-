@@ -67,6 +67,7 @@
     <Compile Include="DataAccess\DataContext.cs" />
     <Compile Include="DataAccess\StoreContext.cs" />
     <Compile Include="Data\Book.cs" />
+    <Compile Include="Data\Hire.cs" />
     <Compile Include="Data\Reader.cs" />
     <Compile Include="Data\Worker.cs" />
     <Compile Include="MainForm.cs">

@@ -149,6 +149,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Name = "ReaderListForm";
             this.Text = "Lista czytelników";
+            this.Load += new System.EventHandler(this.ReaderListForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.readerBindingSource)).EndInit();
             this.ResumeLayout(false);

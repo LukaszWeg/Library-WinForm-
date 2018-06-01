@@ -29,7 +29,7 @@ namespace Bibloteka
 
         private void button4_Click(object sender, EventArgs e)
         {
-            this.bookBindingSource.ResetBindings(true);
+            this.bookBindingSource.DataSource = DataContext.getBooks();
         }
 
         private void button3_Click(object sender, EventArgs e)

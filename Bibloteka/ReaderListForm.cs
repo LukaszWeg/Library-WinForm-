@@ -32,7 +32,7 @@ namespace Bibloteka
 
         private void button4_Click(object sender, EventArgs e)
         {
-            this.readerBindingSource.ResetBindings(true);
+            this.readerBindingSource.DataSource = DataContext.getReaders();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -54,6 +54,11 @@ namespace Bibloteka
                     readerForm.Show();
                 }
             }
+        }
+
+        private void ReaderListForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

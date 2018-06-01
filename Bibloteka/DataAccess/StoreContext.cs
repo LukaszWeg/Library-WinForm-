@@ -18,5 +18,6 @@ namespace Bibloteka.DataAccess
         public DbSet<Worker> getWorkers { get; set; }
         public DbSet<Book> getBooks { get; set; }
         public DbSet<Reader> getReaders { get; set; }
+        public DbSet<Hire> getHires { get; set; }
     }
 }

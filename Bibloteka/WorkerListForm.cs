@@ -34,7 +34,7 @@ namespace Bibloteka
 
         private void button4_Click(object sender, EventArgs e)
         {
-            this.workerBindingSource.ResetBindings(true);
+            this.workerBindingSource.DataSource = DataContext.getWorkers();
         }
 
         private void button1_Click(object sender, EventArgs e)
