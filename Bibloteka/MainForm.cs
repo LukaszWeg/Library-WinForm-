@@ -78,5 +78,19 @@ namespace Bibloteka
             reader.MdiParent = this;
             reader.Show();
         }
+
+        private void wypożyczenieToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            HireForm hire = new HireForm();
+            hire.MdiParent = this;
+            hire.Show();
+        }
+
+        private void listaWypożyczeńToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            HireListForm hire = new HireListForm();
+            hire.MdiParent = this;
+            hire.Show();
+        }
     }
 }

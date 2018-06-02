@@ -8,8 +8,8 @@ using System.Threading.Tasks;
 
 namespace Bibloteka.Data
 {
-    [Table("Wypozyczenia"]
-    class Hire
+    [Table("Wypozyczenia")]
+    public class Hire
     {
         int hireId;
         DateTime hireDate = DateTime.Now;

@@ -50,5 +50,10 @@ namespace Bibloteka
         {
             this.Close();
         }
+
+        private void BookListForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

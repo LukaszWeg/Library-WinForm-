@@ -101,6 +101,7 @@
             this.wypożyczenieToolStripMenuItem.Name = "wypożyczenieToolStripMenuItem";
             this.wypożyczenieToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
             this.wypożyczenieToolStripMenuItem.Text = "Wypożyczenie";
+            this.wypożyczenieToolStripMenuItem.Click += new System.EventHandler(this.wypożyczenieToolStripMenuItem_Click);
             // 
             // daneToolStripMenuItem
             // 
@@ -139,6 +140,7 @@
             this.listaWypożyczeńToolStripMenuItem.Name = "listaWypożyczeńToolStripMenuItem";
             this.listaWypożyczeńToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.listaWypożyczeńToolStripMenuItem.Text = "Lista wypożyczeń";
+            this.listaWypożyczeńToolStripMenuItem.Click += new System.EventHandler(this.listaWypożyczeńToolStripMenuItem_Click);
             // 
             // widokToolStripMenuItem
             // 

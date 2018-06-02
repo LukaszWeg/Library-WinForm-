@@ -43,6 +43,11 @@ namespace Bibloteka.Data
             set { isbn = value; }
         }
 
+        public string NameandYear
+        {
+            get { return name + "(" + date + ")"; }
+        }
+
         public string Type
         {
             get { return type;}

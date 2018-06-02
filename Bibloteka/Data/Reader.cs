@@ -24,6 +24,11 @@ namespace Bibloteka.Data
             set { readerId = value; }
         }
 
+        public string Fullname
+        {
+            get { return firstname + " " + lastname; }
+        }
+
         public string Firstname
         {
             get { return firstname; }

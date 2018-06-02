@@ -37,6 +37,11 @@ namespace Bibloteka.Data
             set { lastname = value; }
         }
 
+        public string Fullname
+        {
+            get { return firstname + " " + lastname; }
+        }
+
         public long TelNumber
         {
             get { return telNumber; }

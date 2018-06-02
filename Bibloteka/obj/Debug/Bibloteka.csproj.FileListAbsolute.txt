@@ -18,3 +18,5 @@ C:\Users\User\source\repos\Bibloteka\Bibloteka\bin\Debug\EntityFramework.dll
 C:\Users\User\source\repos\Bibloteka\Bibloteka\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\User\source\repos\Bibloteka\Bibloteka\bin\Debug\EntityFramework.xml
 C:\Users\User\source\repos\Bibloteka\Bibloteka\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\source\repos\Bibloteka\Bibloteka\obj\Debug\Bibloteka.HireForm.resources
+C:\Users\User\source\repos\Bibloteka\Bibloteka\obj\Debug\Bibloteka.HireListForm.resources
